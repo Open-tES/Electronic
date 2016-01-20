@@ -464,14 +464,6 @@ D = Direct mounting &lt;p&gt;
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+28V">
-<wire x1="1.27" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="3.81" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">+28V</text>
-<pin name="+24V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -491,18 +483,6 @@ D = Direct mounting &lt;p&gt;
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+24V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+28V">
-<gates>
-<gate name="G$1" symbol="+28V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -19694,7 +19674,6 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 </part>
 <part name="FREE" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="U$3" library="supply1" deviceset="+28V" device=""/>
 <part name="IC7" library="microchip" deviceset="PIC16F193*?" device="P" technology="7"/>
 <part name="SUPPLY6" library="supply2" deviceset="+5V/1" device="" value="+5V"/>
 <part name="SUPPLY7" library="supply2" deviceset="+5V/1" device="" value="+5V"/>
@@ -19928,7 +19907,6 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 </instance>
 <instance part="FREE" gate="A" x="160.02" y="119.38" rot="R180"/>
 <instance part="GND15" gate="1" x="170.18" y="124.46"/>
-<instance part="U$3" gate="G$1" x="35.56" y="238.76"/>
 <instance part="IC7" gate="G$1" x="231.14" y="111.76"/>
 <instance part="SUPPLY6" gate="G$1" x="299.72" y="111.76" rot="R180"/>
 <instance part="SUPPLY7" gate="G$1" x="182.88" y="109.22" rot="R90"/>
