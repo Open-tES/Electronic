@@ -21198,7 +21198,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <attribute name="OC_FARNELL" value="1811059"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="P+8" library="supply1" deviceset="+24V" device=""/>
+<part name="P+8" library="supply1" deviceset="+24V" device="" value="+30V"/>
 <part name="R_BUZZ" library="rcl" deviceset="R-EU_" device="R0805" value="2K7">
 <attribute name="OC_FARNELL" value="9339361"/>
 </part>
@@ -21222,8 +21222,8 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="0204/7" value="330">
-<attribute name="OC_FARNELL" value="9339418"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="0204/7" value="620">
+<attribute name="OC_FARNELL" value="2329960"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="M1406" value="12K">
@@ -21365,7 +21365,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <part name="C_LPO2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="2.2µF">
 <attribute name="OC_FARNELL" value="8766983"/>
 </part>
-<part name="P+1" library="supply1" deviceset="+24V" device=""/>
+<part name="P+1" library="supply1" deviceset="+24V" device="" value="+30V"/>
 <part name="SUPPLY13" library="supply2" deviceset="+9V" device="" value="+9V"/>
 <part name="DC_PIC1" library="rcl" deviceset="C-EU" device="C0805" value="0.1µF">
 <attribute name="OC_FARNELL" value="1414664"/>
@@ -21403,6 +21403,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <part name="D1_MIC" library="Open_tES" deviceset="SCHOTTKY" device="">
 <attribute name="OC_FARNELL" value="1469389"/>
 </part>
+<part name="SUPPLY16" library="supply2" deviceset="+5V/1" device="" value="+5V"/>
 </parts>
 <sheets>
 <sheet>
@@ -21646,6 +21647,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <instance part="D1_MIC" gate="G$1" x="66.04" y="243.84">
 <attribute name="OC_FARNELL" x="66.04" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="SUPPLY16" gate="G$1" x="66.04" y="200.66"/>
 </instances>
 <busses>
 </busses>
@@ -22269,6 +22271,14 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <pinref part="IC7" gate="G$1" pin="VDD"/>
 <pinref part="SUPPLY7" gate="G$1" pin="+5V/1"/>
 </segment>
+<segment>
+<pinref part="U2" gate="A" pin="V+"/>
+<wire x1="66.04" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="C_ICL2" gate="G$1" pin="+"/>
+<wire x1="66.04" y1="195.58" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="SUPPLY16" gate="G$1" pin="+5V/1"/>
+<junction x="66.04" y="198.12"/>
+</segment>
 </net>
 <net name="N$32" class="0">
 <segment>
@@ -22309,13 +22319,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <wire x1="78.74" y1="246.38" x2="78.74" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="243.84" x2="86.36" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="243.84" x2="86.36" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="V+"/>
 <wire x1="86.36" y1="233.68" x2="101.6" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="C_ICL2" gate="G$1" pin="+"/>
-<wire x1="66.04" y1="195.58" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="198.12" x2="86.36" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="233.68" x2="86.36" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="233.68" x2="104.14" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R1_MIC" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="243.84" x2="73.66" y2="241.3" width="0.1524" layer="91"/>
