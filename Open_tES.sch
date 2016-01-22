@@ -21225,7 +21225,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <part name="SUPPLY7" library="supply2" deviceset="+5V/1" device="" value="+5V"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="U$4" library="Open_tES" deviceset="FRAME" device="">
-<attribute name="VERSION" value="1.0"/>
+<attribute name="VERSION" value="2.0"/>
 </part>
 <part name="U1" library="Open_tES" deviceset="MIC2288YD5-TR" device="">
 <attribute name="OC_FARNELL" value="2509929"/>
