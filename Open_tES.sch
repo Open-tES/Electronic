@@ -14805,9 +14805,6 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="3363132"/>
 </part>
 <part name="SUPPLY8" library="supply2" deviceset="+9V" device="" value="+9V"/>
-<part name="C_LPO1" library="rcl" deviceset="C-EU" device="C0805" value="1µF">
-<attribute name="OC_FARNELL" value="2496946"/>
-</part>
 <part name="C_LPO2" library="rcl" deviceset="C-EU" device="C0805" value="1µF">
 <attribute name="OC_FARNELL" value="2496946"/>
 </part>
@@ -15038,9 +15035,6 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <instance part="U2" gate="A" x="317.5" y="144.78" rot="MR0"/>
 <instance part="J1" gate="G$1" x="289.56" y="137.16"/>
 <instance part="SUPPLY8" gate="G$1" x="25.4" y="236.22"/>
-<instance part="C_LPO1" gate="G$1" x="101.6" y="236.22" rot="MR0">
-<attribute name="OC_FARNELL" x="101.6" y="236.22" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
 <instance part="C_LPO2" gate="G$1" x="127" y="223.52" rot="MR0">
 <attribute name="OC_FARNELL" x="127" y="223.52" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
@@ -15128,14 +15122,11 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 </segment>
 <segment>
 <wire x1="111.76" y1="233.68" x2="111.76" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="215.9" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="215.9" x2="101.6" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="127" y1="218.44" x2="127" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="127" y1="215.9" x2="111.76" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="215.9" x2="111.76" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="IC4" gate="G$1" pin="GND"/>
-<pinref part="C_LPO1" gate="G$1" pin="2"/>
 <pinref part="C_LPO2" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -15701,11 +15692,8 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <segment>
 <pinref part="IC4" gate="G$1" pin="IN"/>
 <wire x1="96.52" y1="243.84" x2="96.52" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="241.3" x2="101.6" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="241.3" x2="104.14" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="+9V"/>
-<pinref part="C_LPO1" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="241.3" x2="104.14" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="241.3" x2="101.6" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="233.68" x2="25.4" y2="228.6" width="0.1524" layer="91"/>
