@@ -13440,17 +13440,17 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="2329960"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="M1406" value="12K">
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="12K">
+<attribute name="OC_FARNELL" value="1653290"/>
+</part>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="12K">
 <attribute name="OC_FARNELL" value="3086203"/>
 </part>
-<part name="R9" library="rcl" deviceset="R-EU_" device="M1406" value="12K">
-<attribute name="OC_FARNELL" value="3086203"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="2K">
+<attribute name="OC_FARNELL" value="1653296"/>
 </part>
-<part name="R13" library="rcl" deviceset="R-EU_" device="M1406" value="2K">
-<attribute name="OC_FARNELL" value="3086010"/>
-</part>
-<part name="R8" library="rcl" deviceset="R-EU_" device="M1406" value="2K">
-<attribute name="OC_FARNELL" value="3086010"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="2K">
+<attribute name="OC_FARNELL" value="1653296"/>
 </part>
 <part name="C1Q" library="rcl" deviceset="C-EU" device="C0805" value="22pF">
 <attribute name="OC_FARNELL" value="1856180"/>
@@ -13541,7 +13541,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="DC+LF" library="rcl" deviceset="C-EU" device="C0805" value="0.1µF">
-<attribute name="OC_FARNELL" value="1414664"/>
+<attribute name="OC_FARNELL" value="1653290"/>
 </part>
 <part name="DC-LF" library="rcl" deviceset="C-EU" device="C0805" value="0.1µF">
 <attribute name="OC_FARNELL" value="1414664"/>
@@ -13575,7 +13575,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <part name="SUPPLY7" library="supply2" deviceset="+5V/1" device="" value="+5V"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="U$4" library="Open_tES" deviceset="FRAME" device="">
-<attribute name="VERSION" value="2.0"/>
+<attribute name="VERSION" value="2.1"/>
 </part>
 <part name="U1" library="Open_tES" deviceset="MIC2288YD5-TR" device="">
 <attribute name="OC_FARNELL" value="2509929"/>
