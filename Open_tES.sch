@@ -13403,14 +13403,14 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="1084701"/>
 </part>
 <part name="C2Q" library="rcl" deviceset="C-EU" device="C0805" value="22pF">
-<attribute name="OC_FARNELL" value="1856180RL"/>
+<attribute name="OC_FARNELL" value="1856180"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R_MCLR" library="rcl" deviceset="R-EU_" device="0204/7" value="10k">
 <attribute name="OC_FARNELL" value="9339060"/>
 </part>
 <part name="R5" library="rcl" deviceset="R-EU_" device="M0805" value="17K8">
-<attribute name="OC_FARNELL" value="1811059"/>
+<attribute name="OC_FARNELL" value="1575931"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+24V" device="" value="+30V"/>
@@ -13432,7 +13432,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="143126+1654528+1462641"/>
 </part>
 <part name="X2" library="con-panduit" deviceset="057-016-" device="1">
-<attribute name="OC_FARNELL" value="8395934"/>
+<attribute name="OC_FARNELL" value="1554029"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -13453,10 +13453,9 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="3086010"/>
 </part>
 <part name="C1Q" library="rcl" deviceset="C-EU" device="C0805" value="22pF">
-<attribute name="OC_FARNELL" value="1856180RL"/>
+<attribute name="OC_FARNELL" value="1856180"/>
 </part>
 <part name="POWER" library="con-molex" deviceset="22-?-02" device="27-2021">
-<attribute name="FARNELL" value="143126+1654528+1462641"/>
 <attribute name="OC_FARNELL" value="143126+1654528+1462641"/>
 </part>
 <part name="SUPPLY5" library="supply2" deviceset="+9V" device="" value="+9V"/>
@@ -13467,7 +13466,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="2458302"/>
 </part>
 <part name="C2_MIC" library="rcl" deviceset="C-EU" device="C0805" value="4.7µF">
-<attribute name="OC_FARNELL" value="2458302"/>
+<attribute name="OC_FARNELL" value="2426962"/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="-5V" device="" value="-5V"/>
 <part name="SUPPLY9" library="supply2" deviceset="-5V" device="" value="-5V"/>
@@ -13500,22 +13499,22 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="1414664"/>
 </part>
 <part name="C3_PUSH" library="rcl" deviceset="C-EU" device="C0805" value="0.01µF">
-<attribute name="OC_FARNELL" value="1414662RL"/>
+<attribute name="OC_FARNELL" value="1414662"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C2_PUSH" library="rcl" deviceset="C-EU" device="C0805" value="0.01µF">
-<attribute name="OC_FARNELL" value="1414662RL"/>
+<attribute name="OC_FARNELL" value="1414662"/>
 </part>
 <part name="C1_PUSH" library="rcl" deviceset="C-EU" device="C0805" value="0.01µF">
-<attribute name="OC_FARNELL" value="1414662RL"/>
+<attribute name="OC_FARNELL" value="1414662"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="C_FILT" library="rcl" deviceset="C-EU" device="C0805" value="22µF">
-<attribute name="OC_FARNELL" value="499365"/>
+<part name="C_FILT" library="rcl" deviceset="C-EU" device="C0805" value="10µF">
+<attribute name="OC_FARNELL" value="2346934"/>
 </part>
 <part name="R_FILT" library="rcl" deviceset="R-EU_" device="R0805" value="10K">
-<attribute name="OC_FARNELL" value="2129113"/>
+<attribute name="OC_FARNELL" value="9332383"/>
 </part>
 <part name="SUPPLY15" library="supply2" deviceset="+5V/1" device="" value="+5V"/>
 <part name="CD_LCD" library="rcl" deviceset="C-EU" device="C0805" value="0.1µF">
@@ -13585,7 +13584,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="1463501"/>
 </part>
 <part name="R1_MIC" library="rcl" deviceset="R-EU_" device="R0805" value="28.7KR">
-<attribute name="OC_FARNELL" value="2303698"/>
+<attribute name="OC_FARNELL" value="1167459"/>
 </part>
 <part name="R2_MIC" library="rcl" deviceset="R-EU_" device="R0805" value="1.24KR">
 <attribute name="OC_FARNELL" value="2303560"/>
@@ -13699,9 +13698,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <instance part="C1Q" gate="G$1" x="162.56" y="91.44" rot="R180">
 <attribute name="OC_FARNELL" x="162.56" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="POWER" gate="-1" x="20.32" y="213.36" rot="R180">
-<attribute name="FARNELL" x="20.32" y="213.36" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
+<instance part="POWER" gate="-1" x="20.32" y="213.36" rot="R180"/>
 <instance part="POWER" gate="-2" x="20.32" y="233.68" rot="R180"/>
 <instance part="SUPPLY5" gate="G$1" x="96.52" y="246.38"/>
 <instance part="IC4" gate="G$1" x="111.76" y="241.3">
