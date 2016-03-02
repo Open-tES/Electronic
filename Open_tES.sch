@@ -13429,7 +13429,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+5V/1" device="" value="+5V"/>
 <part name="X3" library="con-molex" deviceset="22-?-02" device="27-2021">
-<attribute name="OC_FARNELL" value="143126+1654528+1462641"/>
+<attribute name="OC_FARNELL" value="9731148+1654528+1462641"/>
 </part>
 <part name="X2" library="con-panduit" deviceset="057-016-" device="1">
 <attribute name="OC_FARNELL" value="1554029"/>
@@ -13444,7 +13444,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="1653290"/>
 </part>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="12K">
-<attribute name="OC_FARNELL" value="3086203"/>
+<attribute name="OC_FARNELL" value="1653290"/>
 </part>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="2K">
 <attribute name="OC_FARNELL" value="1653296"/>
@@ -13456,7 +13456,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <attribute name="OC_FARNELL" value="1856180"/>
 </part>
 <part name="POWER" library="con-molex" deviceset="22-?-02" device="27-2021">
-<attribute name="OC_FARNELL" value="143126+1654528+1462641"/>
+<attribute name="OC_FARNELL" value="9731148+1654528+1462641"/>
 </part>
 <part name="SUPPLY5" library="supply2" deviceset="+9V" device="" value="+9V"/>
 <part name="IC4" library="v-reg" deviceset="LP2950?*" device="CZ" technology="-5.0">
@@ -13523,14 +13523,14 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <part name="SP1" library="Open_tES" deviceset="KPEG242" device="">
 <attribute name="OC_FARNELL" value="1502726"/>
 </part>
-<part name="R6" library="rcl" deviceset="R-TRIMM" device="3224X" value="2K">
+<part name="R6" library="rcl" deviceset="R-TRIMM" device="3214W" value="2K">
 <attribute name="OC_FARNELL" value="988250"/>
 </part>
 <part name="IC5" library="linear" deviceset="OPA277" device="U">
 <attribute name="OC_FARNELL" value="1097478"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-TRIMM" device="3224X" value="20K">
+<part name="R4" library="rcl" deviceset="R-TRIMM" device="3214W" value="20K">
 <attribute name="OC_FARNELL" value="988285"/>
 </part>
 <part name="DC_IC5+" library="rcl" deviceset="C-EU" device="C0805" value="0.1µF">
